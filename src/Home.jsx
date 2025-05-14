@@ -10,9 +10,10 @@ const Home = () => {
 
   return (
     <div className="home-container">
-      <img src={logo} alt="LibroNet Logo" className="logo" />
+      <div className="header">
+              <img src={logo} alt="LibroNet Logo" className="logo" />
+      </div>
       <nav className="navbar">
-        <div className="logo">LibroNet</div>
         <div className="nav-links">
           <span>My Books</span>
           <span>Category <FaChevronDown /></span>
